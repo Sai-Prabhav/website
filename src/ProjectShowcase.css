@@ -1,0 +1,61 @@
+/* Responsive styles for ProjectShowcase */
+.project-card-responsive {
+  flex-direction: row;
+  border: 2px solid #50fa7b;
+  box-shadow: 0 2px 16px 0 #50fa7b33;
+}
+.project-media-responsive {
+  margin-bottom: 0;
+}
+.project-content-responsive {
+  font-size: 1rem;
+}
+@media (max-width: 750px) {
+  .project-card-responsive {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+  .project-media-responsive {
+    margin-right: 0 !important;
+    max-width: 100% !important;
+  }
+  .project-content-responsive {
+    font-size: 0.95rem !important;
+  }
+  .project-content-responsive h2 {
+    font-size: 1.15rem !important;
+  }
+}
+@media (max-width: 400px) {
+  .project-card-responsive {
+    padding: 0.75rem !important;
+    margin-bottom: 1rem !important;
+    border-radius: 8px !important;
+  }
+
+  .project-content-responsive {
+    font-size: 0.85rem !important;
+    padding: 0 !important;
+  }
+  .project-content-responsive h2 {
+    font-size: 1rem !important;
+    margin-bottom: 0.3rem !important;
+  }
+}
+@media (max-width: 325px) {
+  .project-card-responsive {
+    padding: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+    border-radius: 6px !important;
+  }
+
+
+  .project-content-responsive {
+    font-size: 0.75rem !important;
+    padding: 0 !important;
+  }
+  .project-content-responsive h2 {
+    font-size: 0.85rem !important;
+    margin-bottom: 0.2rem !important;
+  }
+}

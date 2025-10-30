@@ -1,0 +1,34 @@
+/* Responsive heading for V Sai Prabhav in Header */
+.vsaiprabhav-heading {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-family: inherit;
+  margin: 0;
+}
+@media (max-width: 750px) {
+  .vsaiprabhav-heading {
+    font-size: 1.25rem !important;
+    line-height: 1.1 !important;
+    word-break: break-word;
+  }
+}
+@media (max-width: 400px) {
+  .vsaiprabhav-heading {
+    font-size: 1rem !important;
+    line-height: 1.05 !important;
+    margin: 0 !important;
+  }
+  header {
+    padding: 1rem 0 !important;
+  }
+  .vsaiprabhav-heading {
+    word-break: break-word;
+  }
+  a > img {
+    width: 22px !important;
+    height: 22px !important;
+  }
+  .vsaiprabhav-heading {
+    font-size: 0.95rem !important;
+  }
+}

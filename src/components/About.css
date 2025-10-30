@@ -1,0 +1,25 @@
+/* Responsive heading for About section */
+h2 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+@media (max-width: 750px) {
+  h2 {
+    font-size: 1.25rem !important;
+    line-height: 1.1 !important;
+    word-break: break-word;
+  }
+}
+
+/* Responsive heading for V Sai Prabhav */
+.vsaiprabhav-heading {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+@media (max-width: 750px) {
+  .vsaiprabhav-heading {
+    font-size: 1.25rem !important;
+    line-height: 1.1 !important;
+    word-break: break-word;
+  }
+}
